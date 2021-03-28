@@ -1,1 +1,8 @@
+This program can be run in command line by typing the command:
+python SimpleCalculator.py
+in the directory containing the file.
+If you wish to run the test class run the file in the command line with the command:
+python SimpleCalculatorTest.py
 
+All logic is in the SimpleCalculator.py file and 
+all testing is in the SimpleCalculatorTest.py file.

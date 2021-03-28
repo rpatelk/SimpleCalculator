@@ -1,19 +1,38 @@
+# Class that contaians logic for the simple calculator functionality
+# and user interface.
+# @author Raj Patel
+
+# Adds two numbers together.
+# @param a the first number in operation
+# @param b the second number in operation
 def addition(a, b):
     x = a + b
     return x
 
+# Subtracts two numbers.
+# @param a the first number in operation
+# @param b the second number in operation
 def subtraction(a, b):
     x = a - b
     return x
 
+# Multiplies two numbers.
+# @param a the first number in operation
+# @param b the second number in operation
 def multiplication(a, b):
     x = a * b
     return x
 
+# Divides two numbers.
+# @param a the first number in operation
+# @param b the second number in operation
 def division(a, b):
     x = a / b
     return x
 
+# Main method to run program.
+# Contains simple ui asking user for 2 numbers and the operation they wish
+# to use. Only excepts number values and listed operations.
 def main():
     print("Welcome to Simple Calculator!")
     print("This calculator allows you to add, subtract, multiply, and divide.")
